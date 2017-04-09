@@ -1,0 +1,139 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: #D34747;
+	/* Old color #399480 */
+}
+
+#header {
+	background: #D34747;
+	/* Old color #D34747 */
+	color: #cccccc;
+	padding: 10px 100px 20px 140px;
+	width: 100% - 240px;
+}
+
+#header a {
+	text-decoration: none;
+	color: #cccccc;
+}
+
+#header-top {
+	padding: 0px 100px 10px 140px;
+}
+
+#header #logo {
+	font-size: 25px;
+	float: left;
+}
+
+#main-nav{
+	margin-left: 50%;
+	padding-top: 10px;
+}
+
+ul#menu li {
+	margin-left: 5px;
+    display:inline;
+}
+
+ul#menu li {
+	padding: 5px 10px;
+	transition: background 0.7s;
+}
+
+ul#menu li:hover {
+	background: #ca1414;
+}
+
+#header-bottom {
+	margin: 10px 20px;
+	width: 100% - 100px;
+	height: 80px;
+	background: #eeeeee;
+	border-radius: 20px;
+}
+
+#main-container {
+	padding: 0px 20px;
+}
+
+#rankings {
+	width: 100%;
+	height: 500px;
+	background: white;
+}
+
+#school {
+	padding: 20px 80px;
+	font-size: 24px;
+}
+
+.descr {
+	color: #ffffff;
+	margin-right: 20px;
+	float: left;
+}
+
+/* ANIMATIONS===================== */
+
+@keyframes rotateFall {
+    0%      { transform: rotateZ(0deg); }
+    20%     { transform: rotateZ(10deg); animation-timing-function: ease-out; }
+    40%     { transform: rotateZ(17deg); }
+    60%     { transform: rotateZ(16deg); }
+    100%    { transform: translateY(100%) rotateZ(17deg); }
+}
+
+/* slide in from the bottom */
+@keyframes slideOutLeft {
+    to      { transform: translateX(-100%); }
+}
+
+@keyframes rotateOutNewspaper {
+    to      { transform: translateZ(-3000px) rotateZ(360deg); opacity: 0; }
+}
+
+@keyframes scaleUp {
+    from    { opacity: 0.5; -webkit-transform: scale(0.5); }
+}
+
+@keyframes slideInRight {
+    from    { transform:translateX(100%); }
+    to      { transform: translateX(0); }
+}
+
+@keyframes slideInUp {
+    from    { transform:translateY(100%); }
+    to      { transform: translateY(0); }
+}
+
+.ng-enter {
+	z-index: 6666;
+}
+
+.ng-leave {
+	z-index: 6666;
+}
+
+
+.page-home { 
+	background:#D34747; color:#a55400; 
+}
+.page-home.ng-enter { 
+	animation: slideInUp 2.0s both ease-in;
+}
+.page-home.ng-leave {
+    animation: slideOutLeft 1.5s both ease-out;
+}
+
+.page-choice.ng-enter { 
+	animation: slideInUp 2.0s both ease-in;
+}
+.page-choice.ng-leave {
+    animation: slideOutLeft 1.5s both ease-out;
+}

@@ -1,0 +1,89 @@
+body {
+	background: #eeeeee;
+}
+
+#schoolContainer {
+	margin: 15px 100px;
+	background: white;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+}
+
+#schoolLogo {
+	padding: 20px;
+	width: 140px;
+}
+
+<<<<<<< HEAD
+span#schoolName {
+	margin-left: 40px;
+}
+
+#schoolL{
+	padding: 20px;
+	width: 140px;
+}
+
+span {
+>>>>>>> 42a7ba015013afaf62b6ccf5848b397e41e4fdda
+	font-size: 20px;
+}
+
+#ladder {
+	margin: 30px 100px;
+	background: white;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+}
+
+.player {
+	padding: 20px 35px;
+	position: relative;
+	transition: background 0.8s;
+}
+
+.player:nth-child(even) {
+	background: #dddddd;
+}
+
+.player:hover {
+	background: #bbbbbb;
+}
+
+.player:hover:after{
+    background: #333;
+    background: rgba(0,0,0,.8);
+    border-radius: 5px;
+    bottom: 70px;
+    color: #fff;
+    content: attr(title);
+    left: 0px;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 220px;
+}
+
+
+
+.ign {
+	float: left;
+	width: 15%;
+}
+
+.rank {
+	margin-left: calc(100% - 225px);
+}
+
+.lp {
+	float: right;
+	margin-right: 35px;
+}
+
+.numberedList {
+	margin-right: 30px;
+	color: #9c9c9c;
+}
+
+.role {
+	color: #5a5a5a;
+	margin-left: calc(100% - 100px);
+}

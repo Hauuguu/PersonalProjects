@@ -1,0 +1,25 @@
+<link rel="stylesheet" type="text/css" href="../css/school.css">
+<div id="mainContainer">
+	<div id="schoolContainer">
+		<img id="schoolLogo" src="./img/umass.png">
+		<span id="schoolName">University of Massachusetts Amherst</span>
+	</div>
+	<div id="ladder">
+		<div class="player" ng-repeat="p in players" title="{{p.status}}">
+			<div class="ign">
+				<span class="numberedList" >{{$index + 1}}</span>
+				<span>{{p.ign}}</span>				
+			</div>
+			<div class="ign">
+				<span">Fav Role:&nbsp;&nbsp;&nbsp;{{p.favRole}}</span>
+			</div>
+			<div class="ign">
+				<span">Fav Champion:&nbsp;&nbsp;&nbsp;{{p.favChampion}}</span>
+			</div>
+			<div class="rank">
+				<span class="rank">{{p.tierStr + " " + p.divStr}}</span>
+				<span class="lp">{{p.rankSoloQ.lp}}</span>
+			</div>
+		</div>
+	</div>
+</div>

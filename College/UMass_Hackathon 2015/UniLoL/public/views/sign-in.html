@@ -1,0 +1,42 @@
+<link rel="stylesheet" type="text/css" href="../css/sign-in.css">
+
+<div id="register">
+	<h1>Register Now!</h1>
+	<div id="container">
+		<div class="descr">Enter your school email address (must be an university email):</div>
+		<input type="text" id="to" placeholder="xxx@xxx.edu" ng-model="email"></br>
+		<div class="descr">Enter your ign (only one can be associated per email):</div>
+		<input type="text" id="to" placeholder="ign" ng-model="ign"></br>
+		<div class="descr">Enter a username to be associated with your account:</div>
+		<input type="text" id="to" placeholder="username" ng-model="username"></br>
+		<div class="descr">Enter a desired password:</div>
+		<input type="text" id="to" placeholder="password" ng-model="password"></br>
+		<div id="option">
+		</div>
+		<span id="message"></span>
+		<button ng-click="verify()">Verify Email</button>
+		<div id="msg"> {{msg}} </div>
+	</div>
+</div>
+<div id="update">
+	
+	<div id="container">
+		<h1>Update Your Account</h1>
+		<div class="descr">Favorite Role:</div>
+		<input type="text" id="to" placeholder="role" ng-model="role"></br>
+		<div class="descr">Favorite Champion:</div>
+		<input type="text" id="to" placeholder="champion" ng-model="champ"></br>
+		<div class="descr">Status:</div>
+		<input type="text" id="to" placeholder="status" ng-model="status"></br>
+		<div class="descr">Username:</div>
+		<input type="text" id="to" placeholder="username" ng-model="upUsername"></br>
+		<div class="descr">Password:</div>
+		<input type="text" id="to" placeholder="password" ng-model="upPassword"></br>
+		<div id="option">
+		</div>
+		<span id="message"></span>
+		<button ng-click="update()">Update</button>
+		<div id="msg"> {{msg2}} </div>
+	</div>
+</div>
+

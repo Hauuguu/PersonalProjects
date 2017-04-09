@@ -1,0 +1,14 @@
+#mainLogoContainer {
+	margin-top: 50px;
+}
+
+#mainLogo {
+	display: block;
+	margin: auto;
+}
+
+.select-container {
+	width: 1000px;
+	display: block;
+	margin: auto;
+}
