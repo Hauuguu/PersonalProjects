@@ -27,6 +27,13 @@
 * Theme: "One Room"
 * Collaborators: [Christian James](https://github.com/cjames1224) & [Scott Westover](https://github.com/scottwestover)
 
+### *[GeneNOM](https://ldjam.com/events/ludum-dare/40/genenom)*
+
+* Made for the Ludum Dare 40 Game Jam
+* Made using Unity and C#
+* Theme: "The More You Have, The Worse It Is"
+* Collaborators: [Christian James](https://github.com/cjames1224)
+
 # Programming Challenges
 
 ## *Codefights*
