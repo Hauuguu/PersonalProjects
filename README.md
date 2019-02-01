@@ -39,7 +39,7 @@
 - Theme: "The More You Have, The Worse It Is"
 - Collaborators: [Christian James](https://github.com/cjames1224)
 
-### _[Let Me Sleep](https://kilthxd.itch.io/let-me-sleep)_
+### _[Let Me Sleep](https://globalgamejam.org/2019/games/let-me-sleep)_
 
 - Made for Global Game Jam 2019
 - Made using Unity and C#
